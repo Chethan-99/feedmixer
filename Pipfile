@@ -11,5 +11,6 @@ typing = "*"
 requests = "*"
 django-jsonfeed = "*"
 cachecontrol = "*"
+sgmllib3k = "*"
 
 [dev-packages]
