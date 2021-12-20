@@ -1,1 +1,1 @@
-web: gunicorn app:feedmixer_wsgi
+web: gunicorn feedmixer_wsgi:app
