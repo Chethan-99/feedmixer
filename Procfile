@@ -1,1 +1,1 @@
-web: gunicorn -b 0.0.0.0:$PORT feedmixer_wsgi:app --log-level=DEBUG --worker-class=gevent
+web: gunicorn feedmixer_wsgi:app --log-level=DEBUG --worker-class=gevent
