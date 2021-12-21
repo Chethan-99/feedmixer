@@ -148,7 +148,7 @@ class MixedFeed:
             # special case content_type for JSON
             resp.content_type = "application/json"
         else:
-            resp.content_type = "application/{}+xml".format(self.ftype)
+            resp.content_type = "application/xml"
         resp.status = falcon.HTTP_200
 
 
