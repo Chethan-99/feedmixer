@@ -124,7 +124,7 @@ class MixedFeed:
 
         summ = not full
         fm = FeedMixer(feeds=feeds, num_keep=n, prefer_summary=summ,
-                       title=self.title, desc=self.desc, link=req.uri,
+                       title=self.title, desc=self.desc,
                        sess=self.sess)
 
         # dynamically find and call appropriate method based on ftype:
